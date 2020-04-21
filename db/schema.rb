@@ -10,12 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_04_20_123338) do
+ActiveRecord::Schema.define(version: 2020_04_21_051000) do
 
-  create_table "rails", force: :cascade do |t|
-    t.string "g"
-    t.string "model"
-    t.string "Blog"
+  create_table "blogs", force: :cascade do |t|
     t.string "title"
     t.string "category"
     t.text "body"
